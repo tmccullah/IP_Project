@@ -1,0 +1,74 @@
+html
+{
+    background-color: white;
+    box-sizing:border-box;
+    margin:0;
+    padding: 0px;
+    height: 100%;
+}
+
+*, *:before, *:after 
+{
+  box-sizing: border-box;
+}
+
+body
+{
+    margin:0;
+    padding: 0px;
+    width: 100%;
+    display: block;
+    height: 100%;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+.btn
+{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border:none;
+    border-radius: 3px;
+}
+.btn:hover 
+{
+  background-color: dodgerblue;
+}
+
+table
+{
+    border-collapse: collapse;
+    border: 2px solid dodgerblue;
+    padding: 15px;
+    text-align: center;
+}
+.teacher
+{
+    border-collapse: collapse;
+    border: none;
+    background-color: lightblue;
+    padding: 10px;
+    text-align: left;
+}
+.student
+{
+    border-collapse: collapse;
+    border: none;
+    background-color: lightgray;
+    padding: 10px;
+    text-align: right;
+}
+
+hr
+{
+    color: dodgerblue;
+}
+
+
+
+
